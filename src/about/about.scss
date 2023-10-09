@@ -1,0 +1,105 @@
+@import "../styles/screen.scss";
+
+
+
+
+.parallax-container {
+  display: flex;
+  min-height: 50vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-attachment: fixed;
+
+  background-image: url(../components/images/mopc.jpeg);
+  background-position: center;
+  background-size: cover;
+  color: var(--color);
+  row-gap: 4rem;
+
+  text-align: center;
+}
+
+.buffer {
+  width: 100%;
+  min-height: 10vh;
+  background-color: var(--color);
+}
+
+.parallax-container2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 6rem 0;
+  background-image: url(../components/images/descargar.webp);
+  gap: 1.6em;
+  
+}
+
+.parallax-container3 {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 6rem 0;
+  background-image: url(../components/images/canoa.webp);
+  gap: 1.6em;
+}
+
+.parallax-container4 {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 6rem 0;
+  background-image: url(../components/images/lago-verde.jpg);
+  gap: 1.6em;
+}
+
+.parallax-container5 {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 6rem 0;
+  background-image: url(../components/images/lake-side.webp);
+  gap: 1.6em;
+}
+
+.parallax-container6 {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 6rem 0;
+  background-image: url(../components/images/atardecer.avif);
+  gap: 1.6em;
+}
+
+.parallax-container7 {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 6rem 0;
+  background-image: url(../components/images/peces.webp);
+  gap: 1.6em;
+}
+
+.parallax-container8 {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 6rem 0;
+  background-image: url(../components/images/muelle.jpg);
+  gap: 1.6em;
+}
+
+.color { 
+  font-family: 'Inclusive Sans', sans-serif;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+}
+
+.color2 { 
+  background-color: rgba(68, 67, 67, 0.5);
+  color: #fff;
+  border-radius: 4px;
+  margin: 5%;
+}

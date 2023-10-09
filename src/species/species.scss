@@ -1,0 +1,166 @@
+
+  .parallax-containersp {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-attachment: fixed;
+  
+    background-image: url(../components/images/mopc.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: var(--color);
+    row-gap: 4rem;
+  
+    text-align: center;
+  }
+  
+  .buffer {
+    width: 100%;
+    min-height: 10vh;
+    background-color: var(--color);
+  }
+  
+  .parallax-containersp2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    padding: 6rem 0;
+    background-image: url(../components/images/descargar.webp);
+    gap: 1.6em;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  p {
+    max-width: 52ch;
+    padding: 1em;
+    line-height: 1.5;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 1em 3.5em;
+    border-radius: 0.3em;
+    background-color: var(--color);
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    margin-top: 1em;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  
+  .card {
+    display: flex;
+    max-width: 320px;
+    flex-direction: column;
+    align-items: center;
+  
+    padding-bottom: 1rem;
+    border-radius: 0.5em;
+  
+    background-color: white;
+    box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 0.3em;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .card:nth-of-type(1) .card-img {
+    background-image: url(../components/images/Corvina.jpg);
+    height: 300px;
+    width: 218px;
+  }
+  
+  .card:nth-of-type(2) .card-img {
+    background-image: url(../components/images/Mandii-bagre.jpg);
+    height: 300px;
+    width: 218px;
+  }
+  
+  .card:nth-of-type(3) .card-img {
+    background-image: url(../components/images/Raya-rio.jpg);
+    height: 300px;
+    width: 218px;
+  }
+  
+  .card:nth-of-type(4) .card-img {
+    background-image: url(../components/images/piranha.jpg);
+    height: 300px;
+    width: 218px;
+  }
+
+  .card:nth-of-type(5) .card-img {
+    background-image: url(../components/images/Mojarra.jpg);
+    height: 300px;
+    width: 218px;
+  }
+  
+
+  .color { 
+    font-family: 'Inclusive Sans', sans-serif;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+  }
+  
+  .color2 { 
+    background-color: rgba(68, 67, 67, 0.5);
+    color: #fff;
+    border-radius: 4px;
+    margin: 5%;
+  }
+
+  .card-img2 {
+    width: 100%;
+    height: 200px;
+    border-radius: 0.3em;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .card:nth-of-type(1) .card-img2 {
+    background-image: url(../components/images/Carpincho.jpg);
+    height: 300px;
+    width: 218px;
+  }
+  
+  .card:nth-of-type(2) .card-img2 {
+    background-image: url(../components/images/yetapa.jpg);
+    height: 300px;
+    width: 218px;
+  }
+  
+  .card:nth-of-type(3) .card-img2 {
+    background-image: url(../components/images/capuchino.jpg);
+    height: 300px;
+    width: 218px;
+  }
+  
+  .card:nth-of-type(4) .card-img2 {
+    background-image: url(../components/images/Picaflor.jpg);
+    height: 300px;
+    width: 218px;
+  }
+
+  .card:nth-of-type(5) .card-img2 {
+    background-image: url(../components/images/Teju-Hu.jpg);
+    height: 300px;
+    width: 218px;
+  }

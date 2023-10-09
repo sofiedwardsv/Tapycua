@@ -1,0 +1,20 @@
+.sidebar {
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .page {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 10px;
+      border-radius: 4px;
+
+      &:hover {
+        background-color: #2c4b94;
+      }
+
+    }
+  }
+}
